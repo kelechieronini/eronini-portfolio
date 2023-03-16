@@ -240,6 +240,10 @@ p.qualification-date{
     font-size: 13px;
 }
 
+.qualification-tabs{
+    gap: 7rem;
+}
+
 .qualification-tabs h2 {
   font-size: 20px;
 }
@@ -412,6 +416,61 @@ a.discount-btn {
 
 iconify-icon#discount {
   color: #6e57e0 !important;
+}
+
+/* SECTION-8 STYLING */
+.section-8{
+    margin-bottom: 100px;
+}
+
+.section-8 .contact{
+    gap: 3rem;
+}
+
+
+.contact-form .first-row{
+    gap: 1rem;
+}
+
+.contact-form label{
+    background: transparent !important;
+}
+
+.contact-form input {
+    background: hsl(250deg 29% 16%) !important;
+    border: none !important;
+    color: #fff !important;
+    border-radius: 0.5rem;
+}
+
+.contact-form textarea {
+    background: hsl(250deg 29% 16%) !important;
+    border: none !important;
+    color: #fff !important;
+    border-radius: 0.5rem;
+}
+
+.contact-dets{
+    gap: 1.5rem;
+}
+
+.contact-text h3{
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact-text p{
+    font-size: 14px;
+}
+
+.contact-info{
+    gap: 1rem;
+}
+
+
+iconify-icon.contact{
+    color: #6e57e0;
+    font-size: 33px;
 }
 /* Main section styling END */
 
@@ -603,7 +662,7 @@ iconify-icon#discount {
     display: block;
     margin: auto;
     margin-bottom: 40px;
-    width: 75% !important;
+    width: 86% !important;
   }
   .item-container {
     flex-direction: column;
@@ -611,11 +670,15 @@ iconify-icon#discount {
   }
 
   .portfolio-desc {
-    margin-left: 47px;
+    max-width: 298px;
   }
 
   .section-6 iconify-icon.control {
-    font-size: 30px !important;
+    font-size: 35px !important;
+  }
+
+  .carousel-control-next {
+    top: 31px !important;
   }
 
   /* SECTION-7 STYLING */
@@ -638,5 +701,15 @@ iconify-icon#discount {
 
   .discount-btn{
     padding: 0.9rem 0.5rem !important;
+  }
+
+  /* SECTION-8 STYLING */
+  .contact{
+    flex-direction: column;
+  }
+
+  .contact-form .first-row{
+    flex-direction: column;
+    gap: 0;
   }
 }
