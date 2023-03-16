@@ -549,6 +549,7 @@ iconify-icon#discount {
   }
 
   /* SECTION-4 STYLING */
+
   .qualification-data {
     display: grid !important;
     grid-template-columns: 1fr max-content 1fr;
@@ -564,6 +565,11 @@ iconify-icon#discount {
   }
 
   /* SECTION-5 STYLING */
+  .section-5{
+    margin-top: 90px;
+    margin-bottom: 70px;
+  }
+
   .sect-5 {
     display: grid !important;
     gap: 1.5rem !important;
@@ -573,11 +579,15 @@ iconify-icon#discount {
   .service-container {
     display: block;
     margin: auto;
-    padding-right: 8rem;
+    padding-right: 11rem;
     padding-top: 3.5rem;
   }
 
   /* SECTION-6 STYLING */
+
+  .section-6{
+    margin-bottom: 100px;
+  }
 
   .section-6 p {
     font-size: 15px;
