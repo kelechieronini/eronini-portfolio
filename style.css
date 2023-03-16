@@ -62,7 +62,7 @@ a.section-btn {
 }
 
 .navbar-brand {
-  font-size: 19px !important;
+  font-size: 16px !important;
   color: beige !important;
   font-weight: 700 !important;
 }
@@ -82,21 +82,33 @@ a.nav-link {
   right: 150px;
   top: 8px;
 }
+
+li.nav-item iconify-icon.day{
+font-size: 19px !important;
+cursor: pointer;
+}
 /* NAVBAR Styling END */
 
 /* MAIN SECTION styling START */
 /* section-1 styling START */
 .section-1 {
-  margin-top: 100px;
+  margin-top: 200px;
   position: relative;
-  margin-bottom: 210px;
+  margin-bottom: 70px;
 }
 .section-1-social {
-  max-width: 990px !important;
-  display: inline !important;
-  /* width: 100% !important; */
-  /* position: absolute; */
-  background-color: honeydew !important;
+    gap: 1.5rem;
+  position: absolute;
+  left: -130px;
+  top: 86px;
+  width: fit-content !important;
+
+}
+
+iconify-icon.social{
+    font-size: 20px;
+    color: #6e57e0;
+    cursor: pointer;
 }
 
 h1.section-1-name {
@@ -472,6 +484,47 @@ iconify-icon.contact{
     color: #6e57e0;
     font-size: 33px;
 }
+
+
+/* FOOTER STYLING */
+
+.footer-container{
+    padding: 6rem;
+}
+
+
+.footer-container,  footer{
+    background: hsl(250deg 30% 8%) !important;
+}
+
+.footer-text p span{
+    color: #6e57e0;
+    font-size: 16px;
+    font-weight: 200 !important;
+}
+
+.footer-text p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-icon{
+    gap:4rem ;
+}
+
+.footer-icon a{
+    background: hsl(250deg 30% 8%) !important;
+}
+.vertical{
+    border-left: 2px solid #6e57e0;
+    height: 20px;
+    left: 50%;
+}
+
+div.footer-text, div.footer-text p, div.footer-text span, .footer-icon{
+    background: transparent !important;
+}
+
 /* Main section styling END */
 
 /* Media query */
@@ -490,6 +543,9 @@ iconify-icon.contact{
     } */
 
   /* NAVBAR STYLING */
+  .navbar-desktop{
+    display: none !important;
+  }
   .navbar-brand {
     position: fixed !important;
     bottom: 0px !important;
@@ -505,8 +561,14 @@ iconify-icon.contact{
 
   /* SECTION-1 STYLING */
   .section-1 {
-    margin-top: 10px;
+    margin-top: 100px;
     margin-bottom: 100px;
+  }
+
+  .section-1-social{
+    top: 14px;
+    left: 0;
+    gap: 0.9rem;
   }
 
   .sect-1 {
@@ -543,7 +605,7 @@ iconify-icon.contact{
   img.section-1-img {
     display: block !important;
     margin: auto !important;
-    width: 45%;
+    width: 53%;
     margin-bottom: 2rem !important;
     /* margin-left: 50px; */
   }
@@ -713,4 +775,21 @@ iconify-icon.contact{
     flex-direction: column;
     gap: 0;
   }
+
+  /* FOOTER STYLING */
+
+  .footer-container{
+    gap: 2rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-icon{
+    gap:4rem ;
+    
+}
+
+.vertical{
+    display: none;
+}
 }
