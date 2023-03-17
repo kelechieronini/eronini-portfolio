@@ -47,8 +47,27 @@ body {
   color: #6e57e0 !important;
 }
 
+/* SECTION-2 LIGHT MODE */
+.light-mode .stat h3{
+  color: #6e57e0 !important;
+}
+
+/* SECTION-3 STYLING */
+.light-mode .progress-head h2{
+  color: #6e57e0 !important;
+}
 /* SECTION-4 LIGHT MODE */
 .light-mode .qualification-tabs h2 {
+  color: #6e57e0 !important;
+}
+
+.light-mode .work-btn h2{
+  color: black !important;
+}
+
+
+
+.light-mode .qualification-data p.lead-text{
   color: #6e57e0 !important;
 }
 
@@ -495,7 +514,7 @@ a.view-more {
 }
 
 .section-6 p {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .section-6 h5 {
@@ -657,8 +676,37 @@ footer {
 
 /* Media query */
 @media screen and (max-width: 990px) {
+
   .custom-container {
     width: 95% !important;
+  }
+
+  iconify-icon.day-mobile{
+    position: fixed;
+    right: 1rem;
+    background: hsl(250deg 29% 16%) !important;
+    padding: 0.3rem;
+    z-index: 99;
+    border-radius: 0.5rem;
+  }
+
+  iconify-icon.night-mobile{
+    display: none;
+    position: fixed;
+    right: 1rem;
+    padding: 0.3rem;
+    z-index: 99;
+  }
+
+  .light-mode iconify-icon.night-mobile{
+    display: block;
+    background: #6e57e0 !important;
+    color: #fff !important;
+    border-radius: 0.5rem;
+  }
+
+  .light-mode iconify-icon.day-mobile{
+    display: none !important;
   }
 
   a.section-btn {
