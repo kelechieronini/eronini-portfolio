@@ -234,6 +234,10 @@ li.nav-item iconify-icon.day:hover {
   color: #6e57e0 !important;
 }
 
+.mobile-navbar-contents{
+  display: none !important;
+}
+
 /* NAVBAR Styling END */
 
 /* MAIN SECTION styling START */
