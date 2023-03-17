@@ -177,6 +177,8 @@ a.section-btn {
   font-weight: 700;
 }
 
+
+
 /* NAVBAR Styling START */
 .navbar {
   padding: 15px !important;
@@ -237,7 +239,7 @@ li.nav-item iconify-icon.day:hover {
 /* MAIN SECTION styling START */
 /* section-1 styling START */
 .section-1 {
-  margin-top: 200px;
+  margin-top: 150px;
   position: relative;
   margin-bottom: 70px;
 }
@@ -735,10 +737,70 @@ footer {
     padding: 0px !important;
   }
 
+  .mobile-navbar{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
+    background: hsl(250deg 30% 12%) !important;
+    padding: 0.8rem;
+    transition: 0.5s;
+  }
+
+  .mobile-navbar iconify-icon{
+    color: #6e57e0;
+    cursor: pointer;
+  
+  }
+
+  .mobile-navbar-contents{
+    gap: 3rem;
+    padding: 1.5rem;
+    background: hsl(250deg 30% 12%) !important;
+    position: fixed;
+    bottom: 55px;
+    z-index: 99;
+    display: none;
+  }
+
+  .mobile-navbar-contents a{
+    text-decoration: none !important;
+    color: beige;
+  }
+
+  .mobile-navbar-close{
+    display: none;
+  }
+
+  .mobile-text{
+    font-size: 13px !important;
+    font-weight: 700;
+  }
+
+  iconify-icon.mobile-navbar-icon {
+    font-size: 20px !important;
+    color: #6e57e0 !important;
+  }
+
+  .light-mode .mobile-navbar{
+    background: beige !important;
+  }
+
+  .light-mode .mobile-navbar-contents{
+    background: beige !important;
+  }
+
+  .light-mode .mobile-navbar-contents a{
+    color: #6e57e0;
+  }
+
+
+
   /* SECTION-1 STYLING */
   .section-1 {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
   }
 
   .section-1-social {
@@ -793,7 +855,7 @@ footer {
   }
 
   .section-2 {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
 

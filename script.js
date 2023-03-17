@@ -35,6 +35,34 @@ darkSwitchMobile.addEventListener('click', () =>{
     console.log('yeah baby');
     darkModeOn();
 })
+// darkMode and lightMode toggle MOBILE END
+
+
+// mobile navbar 
+const mobileNavbar = document.querySelector('.mobile-navbar-open');
+const mobileNavbarContents = document.querySelector('.mobile-navbar-contents')
+const closeMobileNavbar = document.querySelector('.mobile-navbar-close')
+
+
+mobileNavbar.addEventListener('click', () =>{
+    console.log('toggle');
+    mobileNavbarContents.setAttribute("style", "display:grid !important");
+    mobileNavbar.classList.add('remove')
+    closeMobileNavbar.classList.remove('remove')
+    closeMobileNavbar.classList.add('show')
+})
+
+closeMobileNavbar.addEventListener('click', () =>{
+    console.log('close');
+    mobileNavbarContents.setAttribute("style", "display:none !important");
+    mobileNavbar.classList.remove('remove')
+    mobileNavbar.classList.add('show')
+    closeMobileNavbar.classList.add('remove')
+
+
+} )
+
+
 
 // education and work roadmap toggle
 const workButton = document.querySelector(".work-btn");
