@@ -247,15 +247,15 @@ li.nav-item iconify-icon.day:hover {
 /* MAIN SECTION styling START */
 /* section-1 styling START */
 .section-1 {
-  margin-top: 150px;
+  margin-top: 6rem;
   position: relative;
   margin-bottom: 70px;
 }
 .section-1-social {
   gap: 1.5rem;
   position: absolute;
-  left: -130px;
-  top: 86px;
+  left: -120px;
+  top: 55px;
   width: fit-content !important;
 }
 
