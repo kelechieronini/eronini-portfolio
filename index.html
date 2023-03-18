@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome To My Portfolio!</title>
+
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Aos cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Bootstrap CSS CDN only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -167,11 +172,11 @@
     <!-- MAIN SECTION START -->
     <div class="custom-container">
 
-        <iconify-icon icon="ph:sun-bold" class="day-mobile"></iconify-icon>
+        <iconify-icon icon="ph:sun-bold" class="day-mobile" data-aos="flip-up"></iconify-icon>
 
-        <iconify-icon icon="ph:moon" class="night-mobile"></iconify-icon>
+        <iconify-icon icon="ph:moon" class="night-mobile" data-aos="flip-up"></iconify-icon>
 
-      <section class="section-1">
+      <section class="section-1" data-aos="zoom-out-down">
         <div class="section-1-social d-flex flex-column container">
           <a href="https://github.com/kelechieronini"> <iconify-icon icon="charm:github" class="social"></iconify-icon></a>
 
@@ -206,7 +211,8 @@
         </div>
       </section>
 
-      <section id="section-2" class="section-2">
+      <section id="section-2" class="section-2" data-aos="fade-up"
+      data-aos-duration="1500">
         <h2 class="section-head-title section-2-about text-center">About Me</h2>
         <p class="text-center">My Introduction</p>
 
@@ -257,7 +263,7 @@
         </div>
       </section>
 
-      <section id="section-3" class="section-3">
+      <section id="section-3" class="section-3" data-aos="zoom-in-up" >
         <h2 class="section-head-title section-3-about text-center">Skills</h2>
         <p class="text-center">My Technical Level</p>
 
@@ -328,7 +334,8 @@
         </div>
       </section>
 
-      <setion id="section-4" class="section-4">
+      <setion id="section-4" class="section-4" data-aos="fade-up"
+      data-aos-duration="1000">
         <h2 class="section-head-title section-4-about text-center">
           Qualification
         </h2>
@@ -345,9 +352,9 @@
         </div>
 
         <div class="container qualification-container education-roadmap text-center">
-          <div class="row qualification-data">
-            <div class="col">
-              <p class="lead-text">
+          <div class="row qualification-data" >
+            <div class="col" data-aos="zoom-in-up">
+              <p class="lead-text" >
                 (B.Eng) Electrical / Electronics Engineering
               </p>
               <p class="qualification-subtitle">
@@ -368,7 +375,7 @@
               <span class="qualification-rounder"></span
               ><span class="qualification-line"></span>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in-up">
               <p class="lead-text">Frontend Web Development</p>
               <p class="qualification-subtitle">I4G X ZURI Cohort</p>
               <p class="qualification-date">August 2022 - October 2022</p>
@@ -376,7 +383,7 @@
           </div>
 
           <div class="row qualification-data">
-            <div class="col">
+            <div class="col" data-aos="zoom-in-up">
               <p class="lead-text">Frontend Web Development</p>
               <p class="qualification-subtitle">InternHub FUTO</p>
               <p class="qualification-date">July 2021 - August 2021</p>
@@ -394,7 +401,7 @@
               <span class="qualification-rounder"></span
               ><span class="qualification-line"></span>
             </div>
-            <div class="col">
+            <div class="col" data-aos="zoom-in-up">
               <p class="lead-text">WASSCE</p>
               <p class="qualification-subtitle">
                 Binta International High School
@@ -415,7 +422,7 @@
 
         <div class="container qualification-container text-center work-roadmap">
           <div class="row qualification-data">
-            <div class="col">
+            <div class="col" data-aos="zoom-in-up">
               <p class="lead-text">Junior Frontend Developer</p>
               <p class="qualification-subtitle">
                 Devware Technologies Nigeria
@@ -477,13 +484,14 @@
         </div>
       </setion>
 
-      <section id="section-5" class="section-5">
+      <section id="section-5" class="section-5" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">
         <div>
           <h2 class="section-head-title text-center">Services</h2>
           <p class="text-center mb-5">What I Offer</p>
 
           <div class="sect-5 justify-content-between">
-            <div class="service-container shadow-lg">
+            <div class="service-container shadow-lg" data-aos="flip-left">
               <iconify-icon
                 icon="material-symbols:code"
                 class="service-icon"
@@ -502,7 +510,7 @@
               ></a>
             </div>
 
-            <div class="service-container shadow-lg">
+            <div class="service-container shadow-lg" data-aos="flip-up">
               <iconify-icon
                 icon="ph:figma-logo"
                 class="service-icon"
@@ -521,7 +529,7 @@
               ></a>
             </div>
 
-            <div class="service-container shadow-lg">
+            <div class="service-container shadow-lg" data-aos="flip-right">
               <iconify-icon
                 icon="icon-park-outline:ad-product"
                 class="service-icon"
@@ -669,7 +677,7 @@
         </div>
       </section>
 
-      <section id="section-7" class="section-7">
+      <section id="section-7" class="section-7" data-aos="zoom-in-down">
         <div class="sect-7 d-flex justify-content-between">
           <div class="discount">
             <h5>You have a new project?</h5>
@@ -690,7 +698,8 @@
         </div>
       </section>
 
-      <section id="section-8" class="section-8">
+      <section id="section-8" class="section-8" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">
         <div>
           <h2 class="section-head-title text-center">Contact Me</h2>
           <p class="text-center mb-5">Get in touch</p>
@@ -698,20 +707,20 @@
 
         <div class="contact d-flex">
           <div class="contact-dets d-flex flex-column">
-            <div class="contact-info d-flex align-items-center">
+            <div class="contact-info d-flex  align-items-center" data-aos="fade-up-right">
               <div class="contact-icon">
                 <iconify-icon
                   class="contact"
                   icon="ion:call-outline"
                 ></iconify-icon>
               </div>
-              <div class="contact-text">
+              <div class="contact-text" >
                 <h3>Call Me</h3>
                 <p>+234(0) 903-477-4764</p>
               </div>
             </div>
 
-            <div class="contact-info d-flex align-items-center">
+            <div class="contact-info d-flex align-items-center" data-aos="fade-up-right">
               <div class="contact-icon">
                 <iconify-icon
                   class="contact"
@@ -724,7 +733,7 @@
               </div>
             </div>
 
-            <div class="contact-info d-flex align-items-center">
+            <div class="contact-info d-flex align-items-center" data-aos="fade-up-right">
               <div class="contact-text">
                 <iconify-icon
                   class="contact"
@@ -738,7 +747,8 @@
             </div>
           </div>
 
-          <div>
+          <div data-aos="fade-up"
+     data-aos-duration="1000">
             <div class="contact-form d-flex flex-column form-floating">
               <div class="first-row d-flex">
                 <div class="form-floating mb-3">
@@ -814,7 +824,37 @@
       </div>
     </footer>
 
+#
 
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 100, // values from 0 to 3000, with step 50ms
+  duration: 1000, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+    </script>
+
+    <!-- custom js -->
     <script src="script.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script
