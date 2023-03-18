@@ -753,7 +753,7 @@ footer {
   .mobile-navbar{
     position: fixed;
     bottom: 0;
-    z-index: 1;
+    z-index: 60;
     width: 100%;
     align-items: center;
     background: hsl(250deg 30% 12%) !important;
