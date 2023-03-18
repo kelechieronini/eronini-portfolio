@@ -39,15 +39,15 @@ darkSwitchMobile.addEventListener('click', () =>{
 
 
 // mobile navbar 
-const mobileNavbar = document.querySelector('.mobile-navbar-open');
+const openMobileNavbar = document.querySelector('.mobile-navbar-open');
 const mobileNavbarContents = document.querySelector('.mobile-navbar-contents')
 const closeMobileNavbar = document.querySelector('.mobile-navbar-close')
 
 
-mobileNavbar.addEventListener('click', () =>{
+openMobileNavbar.addEventListener('click', () =>{
     console.log('toggle');
-    mobileNavbarContents.setAttribute("style", "display:grid !important");
-    mobileNavbar.classList.add('remove')
+    mobileNavbarContents.setAttribute("style", "bottom:55px !important");
+    openMobileNavbar.classList.add('remove')
     closeMobileNavbar.classList.remove('remove')
     closeMobileNavbar.classList.add('show')
 })
@@ -55,8 +55,9 @@ mobileNavbar.addEventListener('click', () =>{
 closeMobileNavbar.addEventListener('click', () =>{
     console.log('close');
     mobileNavbarContents.setAttribute("style", "display:none !important");
-    mobileNavbar.classList.remove('remove')
-    mobileNavbar.classList.add('show')
+    mobileNavbarContents.setAttribute("style", "bottom:-300px !important");
+    openMobileNavbar.classList.remove('remove')
+    openMobileNavbar.classList.add('show')
     closeMobileNavbar.classList.add('remove')
 
 

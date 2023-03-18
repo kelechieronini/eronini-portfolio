@@ -23,6 +23,10 @@ body {
   color: #6e57e0 !important;
 }
 
+.light-mode a.section-btn:hover{
+  color: #bcbab4 !important;
+}
+
 /* NAVBAR LIGHT-MODE */
 .light-mode .navbar {
   background: beige !important;
@@ -763,9 +767,10 @@ footer {
     padding: 1.5rem;
     background: hsl(250deg 30% 12%) !important;
     position: fixed;
-    bottom: 55px;
-    z-index: 99;
-    display: none;
+    z-index: 999;
+    display: grid !important;
+    bottom: -300px;
+    transition: 0.5s;
   }
 
   .mobile-navbar-contents a{
