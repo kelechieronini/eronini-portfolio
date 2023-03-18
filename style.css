@@ -781,7 +781,7 @@ footer {
     display: grid !important;
     bottom: -300px;
     transition: 0.5s;
-    width: 100% !important;
+    max-width: 900px !important;
   }
 
   .mobile-navbar-contents a{
