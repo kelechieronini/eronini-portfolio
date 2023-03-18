@@ -106,15 +106,15 @@ body {
 
 /* SECTION-8 LIGHT MODE */
 .light-mode .contact-form input {
-  background: #6e57e0 !important;
+  background: #fff !important;
 }
 
 .light-mode .contact-form label {
-  color: #fff;
+  color: #6e57e0;
 }
 
 .light-mode .contact-form textarea {
-  background: #6e57e0 !important;
+  background: #fff!important;
 }
 
 /* FOOTER LIGHT-MODE */
@@ -703,6 +703,8 @@ footer {
     padding: 0.3rem;
     z-index: 99;
     border-radius: 0.5rem;
+    box-shadow: 20px 20px 60px hsl(250, 29%, 8%) !important;  
+
   }
 
   iconify-icon.night-mobile{
@@ -711,6 +713,8 @@ footer {
     right: 1rem;
     padding: 0.3rem;
     z-index: 99;
+    box-shadow: 20px 20px 60px #6e57e0 !important;  
+
   }
 
   .light-mode iconify-icon.night-mobile{
@@ -718,6 +722,7 @@ footer {
     background: #6e57e0 !important;
     color: #fff !important;
     border-radius: 0.5rem;
+
   }
 
   .light-mode iconify-icon.day-mobile{
@@ -818,7 +823,7 @@ footer {
   }
 
   .section-1-social {
-    top: 14px;
+    top: 30px;
     left: 0;
     gap: 0.9rem;
   }
