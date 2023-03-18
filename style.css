@@ -647,6 +647,11 @@ iconify-icon.contact {
   font-size: 33px;
 }
 
+.form-btn{
+  background: transparent !important;
+  border: none !important;
+}
+
 /* FOOTER STYLING */
 
 .footer-container {
@@ -808,7 +813,7 @@ footer {
 
   /* SECTION-1 STYLING */
   .section-1 {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px !important;
   }
 

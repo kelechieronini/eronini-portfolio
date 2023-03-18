@@ -747,28 +747,35 @@
             </div>
           </div>
 
-          <div data-aos="fade-up"
+          <form id ="my-form" action="https://formspree.io/f/xqkodzqa"
+          method="POST" name="Contact-form" id="contact-form" data-aos="fade-up"
      data-aos-duration="1000">
             <div class="contact-form d-flex flex-column form-floating">
               <div class="first-row d-flex">
                 <div class="form-floating mb-3">
                   <input
+                    id="name" 
+                    name="Name"
                     type="text"
                     class="form-control"
                     id="floatingInputValue"
                     placeholder="John Doe"
                     style="height: 78px"
+                    required
                   />
                   <label for="floatingInputValue">Name</label>
                 </div>
 
                 <div class="form-floating mb-3">
                   <input
+                    id="email" 
+                    name="_replyto"
                     type="email"
                     class="form-control"
                     id="floatingInput"
                     placeholder="name@example.com"
                     style="height: 78px"
+                    required
                   />
                   <label for="floatingInput">Email address</label>
                 </div>
@@ -776,32 +783,42 @@
 
               <div class="form-floating mb-3">
                 <input
-                  type="email"
+                  name="Project" 
+                  id="project"
+                  type="text"
                   class="form-control"
                   id="floatingInput"
                   placeholder="name@example.com"
                   style="height: 78px"
+                  required
                 />
                 <label for="floatingInput">Project</label>
               </div>
 
               <div class="form-floating">
                 <textarea
+                  id="message" 
+                  name="Message"
                   class="form-control"
                   placeholder="Leave a comment here"
                   id="floatingTextarea2"
                   style="height: 170px"
+                  required
                 ></textarea>
                 <label for="floatingTextarea2">Comments</label>
               </div>
             </div>
 
-            <a href="" class="btn btn-lg section-btn mt-4"
+            <button id="my-form-button" class="form-btn">
+             <a class="btn btn-lg section-btn mt-4" type="submit"
               >Send Message
               <iconify-icon icon="material-symbols:send-sharp"></iconify-icon
             ></a>
+            </button>
+            <p id="my-form-status"></p>
+
           </div>
-        </div>
+        </form>
       </section>
 
     </div>
@@ -853,6 +870,25 @@
 
 });
     </script>
+
+
+<!-- JQuery and Alertify JS -->
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+<script src="./assets/JS/alertify.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+  crossorigin="anonymous"
+></script>
+
+<script src="contact.js"></script>
 
     <!-- custom js -->
     <script src="script.js"></script>
