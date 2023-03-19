@@ -363,16 +363,17 @@ p.section-2-desc {
   font-size: 14px;
 }
 
-.progress-head {
-  margin-top: 50px;
-}
-.progress-head h2 {
-  font-size: 20px;
+.skill-container{
+  gap: 0.4rem;
 }
 
-.progress-bar {
-  background: #6e57e0 !important;
-  font-size: 15px;
+iconify-icon.skill-icon{
+  font-size: 6.7rem !important;
+}
+
+.skill-name{
+  font-size: 16px;
+  font-weight: 700;
 }
 /* SECTION-3 STYLING END */
 
@@ -925,6 +926,10 @@ footer {
 
   .section-3 p {
     margin-bottom: -25px;
+  }
+
+  .sect-3{
+    margin-top: 100px !important;
   }
 
   /* SECTION-4 STYLING */
