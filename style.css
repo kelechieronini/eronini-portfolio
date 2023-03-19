@@ -932,6 +932,10 @@ footer {
     margin-top: 100px !important;
   }
 
+  iconify-icon.skill-icon{
+    font-size: 7rem !important;
+  }
+
   /* SECTION-4 STYLING */
 
   .qualification-data {
