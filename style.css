@@ -23,7 +23,7 @@ body {
   color: #6e57e0 !important;
 }
 
-.light-mode a.section-btn:hover{
+.light-mode a.section-btn:hover {
   color: #bcbab4 !important;
 }
 
@@ -52,12 +52,12 @@ body {
 }
 
 /* SECTION-2 LIGHT MODE */
-.light-mode .stat h3{
+.light-mode .stat h3 {
   color: #6e57e0 !important;
 }
 
 /* SECTION-3 STYLING */
-.light-mode .progress-head h2{
+.light-mode .progress-head h2 {
   color: #6e57e0 !important;
 }
 /* SECTION-4 LIGHT MODE */
@@ -65,13 +65,11 @@ body {
   color: #6e57e0 !important;
 }
 
-.light-mode .work-btn h2{
+.light-mode .work-btn h2 {
   color: black !important;
 }
 
-
-
-.light-mode .qualification-data p.lead-text{
+.light-mode .qualification-data p.lead-text {
   color: #6e57e0 !important;
 }
 
@@ -114,7 +112,7 @@ body {
 }
 
 .light-mode .contact-form textarea {
-  background: #fff!important;
+  background: #fff !important;
 }
 
 /* FOOTER LIGHT-MODE */
@@ -150,7 +148,7 @@ footer {
 
 iconify-icon {
   background-color: transparent !important;
-  
+
   font-size: 25px;
 }
 
@@ -180,8 +178,6 @@ a.section-btn {
   font-size: 16px;
   font-weight: 700;
 }
-
-
 
 /* NAVBAR Styling START */
 .navbar {
@@ -238,7 +234,7 @@ li.nav-item iconify-icon.day:hover {
   color: #6e57e0 !important;
 }
 
-.mobile-navbar-contents{
+.mobile-navbar-contents {
   display: none !important;
 }
 
@@ -363,15 +359,15 @@ p.section-2-desc {
   font-size: 14px;
 }
 
-.skill-container{
+.skill-container {
   gap: 0.4rem;
 }
 
-iconify-icon.skill-icon{
+iconify-icon.skill-icon {
   font-size: 6.7rem !important;
 }
 
-.skill-name{
+.skill-name {
   font-size: 16px;
   font-weight: 700;
 }
@@ -648,7 +644,7 @@ iconify-icon.contact {
   font-size: 33px;
 }
 
-.form-btn{
+.form-btn {
   background: transparent !important;
   border: none !important;
 }
@@ -692,41 +688,37 @@ footer {
 
 /* Media query */
 @media screen and (max-width: 990px) {
-
   .custom-container {
     width: 95% !important;
   }
 
-  iconify-icon.day-mobile{
+  iconify-icon.day-mobile {
     position: fixed;
     right: 0.5rem;
     background: hsl(250deg 29% 16%) !important;
     padding: 0.3rem;
     z-index: 99;
     border-radius: 0.5rem;
-    box-shadow: 10px 10px 70px 5px #000 !important;  
-
+    box-shadow: 10px 10px 70px 5px #000 !important;
   }
 
-  iconify-icon.night-mobile{
+  iconify-icon.night-mobile {
     display: none;
     position: fixed;
     right: 0.5rem;
     padding: 0.3rem;
     z-index: 99;
-    box-shadow: 10px 10px 70px 5px #000 !important;  
-
+    box-shadow: 10px 10px 70px 5px #000 !important;
   }
 
-  .light-mode iconify-icon.night-mobile{
+  .light-mode iconify-icon.night-mobile {
     display: block;
     background: beige !important;
     color: #6e57e0 !important;
     border-radius: 0.5rem;
-
   }
 
-  .light-mode iconify-icon.day-mobile{
+  .light-mode iconify-icon.day-mobile {
     display: none !important;
   }
 
@@ -756,7 +748,7 @@ footer {
     padding: 0px !important;
   }
 
-  .mobile-navbar{
+  .mobile-navbar {
     position: fixed;
     bottom: 0;
     z-index: 60;
@@ -767,13 +759,12 @@ footer {
     transition: 0.5s;
   }
 
-  .mobile-navbar iconify-icon{
+  .mobile-navbar iconify-icon {
     color: #6e57e0;
     cursor: pointer;
-  
   }
 
-  .mobile-navbar-contents{
+  .mobile-navbar-contents {
     gap: 3rem;
     padding: 1.5rem;
     background: hsl(250deg 30% 12%) !important;
@@ -785,16 +776,16 @@ footer {
     max-width: 900px !important;
   }
 
-  .mobile-navbar-contents a{
+  .mobile-navbar-contents a {
     text-decoration: none !important;
     color: beige;
   }
 
-  .mobile-navbar-close{
+  .mobile-navbar-close {
     display: none;
   }
 
-  .mobile-text{
+  .mobile-text {
     font-size: 13px !important;
     font-weight: 700;
   }
@@ -804,19 +795,17 @@ footer {
     color: #6e57e0 !important;
   }
 
-  .light-mode .mobile-navbar{
+  .light-mode .mobile-navbar {
     background: beige !important;
   }
 
-  .light-mode .mobile-navbar-contents{
+  .light-mode .mobile-navbar-contents {
     background: beige !important;
   }
 
-  .light-mode .mobile-navbar-contents a{
+  .light-mode .mobile-navbar-contents a {
     color: #6e57e0;
   }
-
-
 
   /* SECTION-1 STYLING */
   .section-1 {
@@ -928,11 +917,11 @@ footer {
     margin-bottom: -25px;
   }
 
-  .sect-3{
+  .sect-3 {
     margin-top: 100px !important;
   }
 
-  iconify-icon.skill-icon{
+  iconify-icon.skill-icon {
     font-size: 7rem !important;
   }
 
@@ -1008,6 +997,10 @@ footer {
 
   .carousel-control-next {
     top: 90px !important;
+  }
+
+  button.carousel-control-previous {
+    top: 900px !important;
   }
 
   /* SECTION-7 STYLING */
