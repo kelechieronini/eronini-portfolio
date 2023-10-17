@@ -466,7 +466,7 @@ p.qualification-date {
 }
 
 .service-container:hover {
-  box-shadow: 5px 10px hsl(250, 29%, 8%) !important;
+  box-shadow: 5px 10px hsl(240, 1%, 16%) !important;
   transition: 0.2s;
 }
 
@@ -518,10 +518,11 @@ a.view-more {
 
 .section-6 button {
   background: transparent !important;
+  width: 0%;
 }
 
 .section-6 p {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .section-6 h5 {
@@ -538,6 +539,12 @@ a.view-more {
 
 .portfolio-desc {
   max-width: 526px;
+  width: 50%;
+  height: 263px;
+}
+
+.recent-work-img{
+  width: 50%;
 }
 
 .item-container {
@@ -989,11 +996,21 @@ footer {
 
   .portfolio-desc {
     max-width: 302px;
+    width: 100%;
+  }
+
+  .recent-work-img{
+    width: 100%;
   }
 
   .section-6 iconify-icon.control {
     font-size: 40px !important;
   }
+
+  .section-6 button{
+    width: 15%;
+  }
+
 
   .carousel-control-next {
     top: 90px !important;
